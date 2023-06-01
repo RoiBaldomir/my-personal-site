@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+nav{
+font-family: 'Maven Pro', sans-serif !important;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.intro {
+  font-weight: bold;
+  font-size: 23px;
+}
+.titles {
+  font-weight: bold;
+  font-size: 47px;
+}
+.subtitles {
+  font-weight: bold;
+  font-size: 50px;
+}
+.subtitles2{
+  font-weight: bold;
+}
+.texts {
+  font-size: 1.3rem;
+}
+.navtext{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.navtitle{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
