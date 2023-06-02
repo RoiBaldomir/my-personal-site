@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -10,7 +11,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
   declarations: [
     NavbarComponent,
     HeaderComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule
@@ -18,7 +20,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
   exports: [
     NavbarComponent,
     HeaderComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    FooterComponent
   ]
 })
 export class CoreModule { }
