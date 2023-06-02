@@ -5,6 +5,7 @@ import { HeaderComponent } from './header/header.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { TimelineComponent } from './timeline/timeline.component';
 
 
 
@@ -14,7 +15,8 @@ import { ProjectsComponent } from './projects/projects.component';
     HeaderComponent,
     AboutMeComponent,
     FooterComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    TimelineComponent
   ],
   imports: [
     CommonModule
@@ -23,6 +25,7 @@ import { ProjectsComponent } from './projects/projects.component';
     NavbarComponent,
     HeaderComponent,
     AboutMeComponent,
+    TimelineComponent,
     ProjectsComponent,
     FooterComponent
   ]
