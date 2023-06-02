@@ -4,6 +4,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HeaderComponent } from './header/header.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { FooterComponent } from './footer/footer.component';
+import { ProjectsComponent } from './projects/projects.component';
 
 
 
@@ -12,7 +13,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     HeaderComponent,
     AboutMeComponent,
-    FooterComponent
+    FooterComponent,
+    ProjectsComponent
   ],
   imports: [
     CommonModule
@@ -21,6 +23,7 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     HeaderComponent,
     AboutMeComponent,
+    ProjectsComponent,
     FooterComponent
   ]
 })
