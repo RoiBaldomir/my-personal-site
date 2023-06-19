@@ -6,6 +6,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { TimelineComponent } from './timeline/timeline.component';
+import { ScrollButtonComponent } from './scroll-button/scroll-button.component';
 
 
 
@@ -16,7 +17,8 @@ import { TimelineComponent } from './timeline/timeline.component';
     AboutMeComponent,
     FooterComponent,
     ProjectsComponent,
-    TimelineComponent
+    TimelineComponent,
+    ScrollButtonComponent
   ],
   imports: [
     CommonModule
@@ -27,6 +29,7 @@ import { TimelineComponent } from './timeline/timeline.component';
     AboutMeComponent,
     TimelineComponent,
     ProjectsComponent,
+    ScrollButtonComponent,
     FooterComponent
   ]
 })
